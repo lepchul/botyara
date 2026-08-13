@@ -1,0 +1,7 @@
+{
+  "bot_token": "123456:AA...ваш токен от @BotFather",
+  "api_url": "http://127.0.0.1:8787",
+  "api_token": "СМЕНИТЕ_МЕНЯ_НА_ДЛИННУЮ_СЛУЧАЙНУЮ_СТРОКУ",
+  "server_name": "Мой сервер",
+  "server_ip": "play.example.ru"
+}
