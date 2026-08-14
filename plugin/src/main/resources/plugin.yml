@@ -1,0 +1,17 @@
+name: TgAuth
+version: '${project.version}'
+main: ru.factor.tgauth.TgAuth
+api-version: '1.20'
+author: ZovPatriot
+description: Авторизация на сервере через Telegram, без паролей.
+
+commands:
+  tgauth:
+    description: Управление привязками Telegram
+    usage: /tgauth <reload|info|unlink|force>
+    permission: tgauth.admin
+
+permissions:
+  tgauth.admin:
+    description: Доступ к админ-командам TgAuth
+    default: op
